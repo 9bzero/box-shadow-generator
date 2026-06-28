@@ -1,19 +1,27 @@
-# box-shadow-generator
+# Box Shadow Generator
 
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
-
-> Multi-layer CSS box-shadow builder with live preview
+Build multi-layer CSS box shadows visually — add layers, adjust offsets, blur, spread, and color, then copy the result.
 
 ## Features
-- 🌑 Add up to unlimited shadow layers
-- 🎛️ Control: X/Y offset, blur, spread, color, opacity
-- ⬛ Inset shadow support
-- 👁️ Live card preview
-- 📋 Copy CSS
+
+- Multiple shadow layers with independent controls
+- Inset shadow support
+- Color picker with opacity
+- Live preview on a configurable background
+- One-click CSS copy
+- Import existing `box-shadow` value to edit it
+
+## Stack
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178c6?style=flat&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-61dafb?style=flat&logo=react&logoColor=black)
+![Vite](https://img.shields.io/badge/Vite-646cff?style=flat&logo=vite&logoColor=white)
+
+## Run locally
 
 ```bash
 npm install && npm run dev
 ```
 
-## License
-[MIT](LICENSE)
+---
+Made by [9bzero](https://github.com/9bzero)
